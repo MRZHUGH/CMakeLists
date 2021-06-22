@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zzw/Project/Calibration/Eigen3/main.cpp
+iostream
+-
+Eigen/Core
+-
+Eigen/Geometry
+-
+
